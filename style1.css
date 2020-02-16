@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue
+  background-color: darkgrey
 }
 
 h1 {
@@ -12,6 +12,7 @@ h1 {
 p {
   font-family: helvectica, sans-serif;
   font-size: 20px;
+  text-align: center;
 }
 
 ul {
@@ -32,6 +33,11 @@ a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: helvectica, sans-serif;
+}
+
+a.normal {
+  font-family: helvectica, sans-serif;
 }
 
 /* Change the link color to #111 (black) on hover */
