@@ -9,6 +9,19 @@ h1 {
   background-image: linear-gradient(to bottom right, blue, green);
 }
 
+h2 {
+  color: white;
+  text-align: center;
+  font-family: helvectica, sans-serif;
+  background-image: linear-gradient(to bottom right, purple, blue);
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-family: helvectica, sans-serif;
+}
+
 p {
   font-family: helvectica, sans-serif;
   font-size: 20px;
@@ -19,20 +32,49 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
+  overflow: hidden;
+  background-color: #333;
 }
 
-li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-  font-family: helvectica, sans-serif;
+li {
+  float: left;
 }
 
-/* Change the link color on hover */
-li a:hover {
-  background-color: #555;
+li a, .dropbtn {
+  display: inline-block;
   color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
