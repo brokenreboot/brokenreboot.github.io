@@ -6,7 +6,7 @@ h1 {
   color: white;
   text-align: center;
   font-family: helvectica, sans-serif;
-  background-image: linear-gradient(to bottom right, blue, green);
+  background-image: linear-gradient(to bottom , #FF00FF, #5F9EA0);
 }
 
 h2 {
@@ -46,6 +46,7 @@ li a, .dropbtn {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: helvectica, sans-serif;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
